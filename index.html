@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>PampTienda - Tu tienda online profesional</title>
+    
+    <!-- Meta SEO -->
+    <meta name="description" content="PampTienda te permite crear tu tienda online profesional de forma rápida, segura y personalizada. Vende tus productos por internet con panel de administración completo, integración de pagos, logística eficiente y soporte técnico.">
+    <meta name="keywords" content="tienda online, ecommerce, vender por internet, tienda profesional, catálogo de productos, gestión de pedidos, panel de administración, ecommerce seguro, React.js, Node.js, MySQL, Vercel, Railway, soluciones para negocios, ecommerce personalizado">
+    <meta name="author" content="Kevin Luna">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Facebook, LinkedIn) -->
+    <meta property="og:title" content="PampTienda - Tu tienda online profesional">
+    <meta property="og:description" content="Crea tu tienda online profesional, segura y personalizada. Administra productos, pedidos y clientes con facilidad.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tupaginaweb.com/">
+    <meta property="og:image" content="https://i.pinimg.com/736x/f0/27/c1/f027c19f65c5f05257a1ed0bb962c6a4.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PampTienda - Tu tienda online profesional">
+    <meta name="twitter:description" content="Crea tu tienda online profesional, segura y personalizada. Administra productos, pedidos y clientes con facilidad.">
+    <meta name="twitter:image" content="https://i.pinimg.com/736x/f0/27/c1/f027c19f65c5f05257a1ed0bb962c6a4.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+    <div class="container">
+
+        <!-- Marca con LOGO + nombre -->
+        <a class="navbar-brand fw-bolder fs-4 d-flex align-items-center" href="#">
+            <img 
+                src="Public/logo-pamptienda.png" 
+                alt="Logo PampTienda"
+                style="height: 60px; width: auto; margin-right: 8px;"
+            />
+            <span style="color: white;">Pamp</span>
+            <span style="color: #ffc107;">Tienda</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-lg-center">
+                <li class="nav-item"><a class="nav-link" href="#features">Diferenciales</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing">Planes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                <li class="nav-item"><a class="nav-link" href="#techstack">Tecnologías</a></li>
+                <li class="nav-item ms-lg-3">
+                    <a class="btn btn-warning btn-sm fw-bold" href="#contacto">Solicitar Demo</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Hero -->
+<section class="hero d-flex align-items-center justify-content-center text-center text-white">
+    <div class="hero-overlay section-fade">
+        <div class="container">
+            <h1 class="display-3 fw-bolder">¿Querés vender por internet de manera profesional?</h1>
+            <p class="lead my-4 fs-4 fw-light text-warning">Tu tienda lista, segura y con una experiencia premium desde el primer día.</p>
+            <a href="#contacto" class="btn btn-warning btn-lg shadow-lg fw-bolder mt-3">Comenzá Hoy <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Diferenciales -->
+<section id="features" class="py-5 bg-white section-fade">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Lo que hace PampTienda <span class="text-warning">diferente</span></h2>
+        <div class="row g-4">
+            <!-- Feature cards -->
+            <div class="col-md-4">
+                <div class="card h-100 feature-card shadow-lg p-4 text-center">
+                    <i class="fa-solid fa-magic fa-3x mb-3 feature-icon"></i>
+                    <h5 class="fw-bold">Personalización total</h5>
+                    <p class="text-secondary">Te acompañamos para que tu tienda sea única.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 feature-card shadow-lg p-4 text-center">
+                    <i class="fa-solid fa-file-excel fa-3x mb-3 feature-icon"></i>
+                    <h5 class="fw-bold">Subí tu catálogo con Excel</h5>
+                    <p class="text-secondary">Crea productos rápidamente con IA y guías paso a paso.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 feature-card shadow-lg p-4 text-center">
+                    <i class="fa-solid fa-chart-line fa-3x mb-3 feature-icon"></i>
+                    <h5 class="fw-bold">Control total</h5>
+                    <p class="text-secondary">Gestiona usuarios, métricas y pedidos desde un solo lugar.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 feature-card shadow-lg p-4 text-center">
+                    <i class="fa-solid fa-palette fa-3x mb-3 feature-icon"></i>
+                    <h5 class="fw-bold">Flexibilidad de diseño</h5>
+                    <p class="text-secondary">Adaptá tu tienda para reflejar tu marca y crecer sin migraciones.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 feature-card shadow-lg p-4 text-center">
+                    <i class="fa-solid fa-truck-fast fa-3x mb-3 feature-icon"></i>
+                    <h5 class="fw-bold">Logística eficiente</h5>
+                    <p class="text-secondary">Imprimí etiquetas con datos de tus clientes y agiliza tus envíos.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 feature-card shadow-lg p-4 text-center">
+                    <i class="fa-solid fa-laptop-code fa-3x mb-3 feature-icon"></i>
+                    <h5 class="fw-bold">Tecnología profesional</h5>
+                    <p class="text-secondary">React.js, Node.js, MySQL, Railway, Vercel y más para una tienda rápida y segura.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="demo" class="demo-hero section-fade">
+    <div class="parallax-bg"></div> <!-- fondo parallax -->
+    <div class="overlay"></div> <!-- overlay negro semi-transparente -->
+    <div class="content text-center">
+        <h2 class="fw-bold">¡Mira nuestro Demo de PampTienda!</h2>
+        <p class="lead my-4 fs-4 fw-light text-warning">
+    Explora la página principal, catálogo, carrito y dashboard administrativo.
+</p>
+        <a href="https://tienda-ecommerce-ariophytum.vercel.app/" target="_blank" class="demo-btn">Ver Demo</a>
+    </div>
+</section>
+
+
+<!-- Plan Mensual Premium Linear -->
+<section id="plan-premium" class="py-5 bg-light section-fade">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bold">Plan Negocio Activo</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card shadow-lg p-5 pricing-card">
+          <div class="text-center mb-4">
+            <p class="display-4 fw-bold text-warning mb-1">$45000,00 ARS / mes</p>
+            <h5 class="fw-bold">Tu negocio listo para vender online</h5>
+          </div>
+
+          <div class="mb-4">
+            <h6 class="fw-bold text-dark">Objetivo del plan</h6>
+            <p>Que cualquier dueño de negocio tenga su propia base de datos segura, administre productos, pedidos y clientes, y reciba soporte sin complicaciones.</p>
+          </div>
+
+          <div class="mb-4">
+            <h6 class="fw-bold text-dark">Beneficios incluidos</h6>
+            <ul class="list-unstyled mb-0">
+              <li>• Base de datos propia y segura</li>
+              <li>• Panel de administración completo</li>
+              <li>• Integración con métricas y pagos</li>
+              <li>• Productos ilimitados</li>
+              <li>• Soporte técnico prioritario</li>
+              <li>• Backups y actualizaciones automáticas</li>
+              <li>• Seguridad completa: Roles y permisos</li>
+            </ul>
+          </div>
+
+          <div class="mb-4">
+            <h6 class="fw-bold text-dark">Por qué elegir este plan</h6>
+            <ul class="list-unstyled mb-0">
+              <li>• Todo en uno: sin servicios extra</li>
+              <li>• Escalable y seguro</li>
+              <li>• Ahorro de tiempo y dinero</li>
+              <li>• Control total desde tu panel global</li>
+              <li>• Crecé sin límites de productos o clientes</li>
+            </ul>
+          </div>
+
+          <div class="text-center mt-4">
+            <a href="#contacto" class="btn btn-warning btn-lg fw-bold shadow-lg">Suscribirse al Plan Premium</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tecnologías -->
+<section id="techstack" class="py-5 section-fade bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Tecnologías utilizadas</h2>
+        <div class="row g-4 justify-content-center text-center">
+            <div class="col-md-2 col-4"><i class="fab fa-react fa-3x text-warning mb-2 tech-icon"></i><p>React.js</p></div>
+            <div class="col-md-2 col-4"><i class="fab fa-js-square fa-3x text-warning mb-2 tech-icon"></i><p>JavaScript</p></div>
+            <div class="col-md-2 col-4"><i class="fab fa-node fa-3x text-warning mb-2 tech-icon"></i><p>Node.js</p></div>
+            <div class="col-md-2 col-4"><i class="fa-solid fa-database fa-3x text-warning mb-2 tech-icon"></i><p>MySQL</p></div>
+            <div class="col-md-2 col-4"><i class="fa-solid fa-server fa-3x text-warning mb-2 tech-icon"></i><p>Railway / Vercel</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="py-5 section-fade bg-black text-white">
+    <div class="container">
+        <h2 class="text-center mb-4 fw-bold">Contactanos</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <form id="contactForm" class="p-4 rounded-3 form-black-custom shadow-lg">
+                    <div class="mb-3"><input type="text" class="form-control" name="nombre" placeholder="Tu nombre" required></div>
+                    <div class="mb-3"><input type="email" class="form-control" name="email" placeholder="Tu email" required></div>
+                    <div class="mb-3"><input type="text" class="form-control" name="asunto" placeholder="Asunto" required></div>
+                    <div class="mb-3"><textarea class="form-control" name="mensaje" rows="5" placeholder="Escribí tu mensaje..." required></textarea></div>
+                    <button type="submit" class="btn btn-warning w-100 btn-lg fw-bold">Enviar Consulta <i class="fas fa-paper-plane ms-2"></i></button>
+                </form>
+                <p id="formMessage" class="mt-3 text-center fw-bold"></p>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <h3 class="text-warning fw-bold">¡Tu e-commerce te espera!</h3>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2025 PampTienda. Todos los derechos reservados.</p>
+        <p>Desarrollado por <a href="https://www.kevinluna.wuaze.com/" target="_blank" class="text-warning fw-bold hover-accent">Kevin Luna</a></p>
+        <div class="mt-2 social-icons">
+            <a href="#" class="text-white me-3 hover-accent"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-white me-3 hover-accent"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-white me-3 hover-accent"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href="#" class="text-white hover-accent"><i class="fab fa-twitter fa-lg"></i></a>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp flotante -->
+<a href="https://wa.me/5492954682932" target="_blank" class="whatsapp-btn"><i class="fab fa-whatsapp fa-2xl text-white"></i></a>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
